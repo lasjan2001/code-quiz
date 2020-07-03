@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+  }
+
+:root {
+    --primary:black;
+    --secondary: rgb(77, 10, 77);
+    --tertiary: rgb(151, 28, 98);
+    --white: rgb(248, 248, 246);
+    font-size: 65%;
+  }
+
+body {
+    background: white;
+    color: var(--secondary);
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+}
+
+#high-scores:hover {
+    cursor: pointer;
+    color: var(--tertiary)
+}
+
+header h3 {
+    padding-left: 15px;
+    font-size: 12px;
+    display: inline;
+}
+
+.timer {
+    font-size: 12px;
+    color: black;
+    display: inline;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.introduction {
+  padding: 20px;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.introduction p {
+  text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+  }
+
+p {
+    color: black;
+    font-size: 15px;
+  }
+
+.queries {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 40px 20px;
+    margin: auto;
+  }
+
+h2 {
+    text-align: left;
+  }
+
+input {
+    outline: thick; 
+    border-width: 1px;
+    padding: 5px;
+    width: 35%;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+input:focus {
+    border: 2px solid var(--secondary);
+  }
+
+.start {
+    display: flex;
+}
+
+.play {
+    display: none;
+}
+
+#question {
+  color: var(--primary);
+  text-align: left;
+  font-size: 3.0rem;
+  font-weight: bold;
+}
+
+#high-score-container {
+  text-align: left;
+}
+
+.btn {
+  background: var(--secondary);
+  color: var(--white);
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 3px grey;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: var(--tertiary);
+  border-radius: 10px;
+  box-shadow: 0 2px grey;
+  cursor: pointer;
+}
+
+.btn:active {
+  border: none;
+  outline: none;
+  box-shadow: 0 0 grey;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-gap: 5px;
+  margin: 20px 0;
+}
+
+.start-quiz {
+ width: 25%;
+ margin-top: 10px;
+}
+
+.answer-buttons {
+ width: 50%;
+ text-align: left;
+ font-size: 3.0vw;
+}
+
+.banner {
+  font-size: 25px;
+  text-align: center;
+  color: rgba(199, 187, 187, 0.8);
+  font-style: italic;
+  margin: 0 100px;
+}
+
+.banner h2 {
+ border-top: 2px solid rgba(199, 187, 187, 0.8);
+ margin: 0 auto;
+ text-align: center;
+ padding-top: 5px;
+}
+
+/* List for High Scores */
+
+ol {
+ list-style-type: number;
+}
+
+li:nth-child(odd) {
+  background-color: rgba(211, 141, 153, 0.5);;
+}
+
+
+li {
+ font-size: 4.0vw;
+}
+
