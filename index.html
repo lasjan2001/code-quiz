@@ -7,7 +7,6 @@
     <title>Code Quiz</title>
 </head>
 <body>
-
     <header>
         <!--High Score and Timer (IntroPage)-->
         <h3 id="high-scores">View High Scores</h3> 
@@ -32,7 +31,7 @@
         </div>
     </div>
     <!--Final Score Page Container-->
-    <div id="final-score" class="end">
+    <div id="final-score" class="play">
        <div class="endgame">
         <div id=score-banner>
             <h2>All done!</h2>
@@ -46,7 +45,7 @@
         </div>
     </div>
     <!--High Score Page Container-->
-    <div id="high-score-container" class="scores">
+    <div id="high-score-container" class="play">
       <div class="high-scores-container">
         <h2 class="high-score">High Scores</h2>
         <ol id="high-score-list" class="score-list"></ol>
@@ -57,5 +56,12 @@
     </div>
     </div>
 </div>
+<div class="play" id="correct">
+    <h2>Correct!😊 </h2>
+</div>
+<div class="play" id="wrong">
+    <h2>Wrong!😢</h2>
+</div>
+<script src="assets\js\script.js"></script> 
 </body>
 </html>
