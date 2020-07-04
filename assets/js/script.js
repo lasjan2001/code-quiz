@@ -104,7 +104,7 @@ var startQuiz = function() {
     questionsCon.classList.remove('play');
     questionsCon.classList.add('start');
     //Shuffle the questions so they show in random order
-    arrayShuffledQuestions = quizItems.sort(() => Math.random() - 1)
+    arrayShuffledQuestions = quizItems.sort(() => Math.random() * - 0.5)
     setTime()
     setQuestion()
   }
