@@ -3,5 +3,7 @@ Description: This website features a short quiz that is designed to test rudimen
 Screenshot:
 ![image](https://user-images.githubusercontent.com/65573897/86503095-521f6f00-bd70-11ea-9785-65158ad89ba8.png)
 
+HTML, CSS, and Javascript were used to create this activity.
+
 Link:
   https://lasjan2001.github.io/code-quiz/
