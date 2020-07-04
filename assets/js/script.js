@@ -93,7 +93,7 @@ var timercheck = setInterval(function() {
         timer.innerText = 0
         clearInterval(timercheck)
     }
-
+    
     }, 1000)
 }
 
@@ -283,8 +283,8 @@ var displayHighScores = function() {
         wrongAns.classList.remove("start");
         wrongAns.classList.add("play");
         }
-    
 }
+
 //clears high scores
 var clearScores = function () {
     HighScores = [];
