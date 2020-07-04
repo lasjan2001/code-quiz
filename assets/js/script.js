@@ -20,7 +20,7 @@ var answerButtons = document.getElementById("answer-buttons")
 var timer = document.querySelector("#timer");
 var score = 0;
 var timeleft;
-var gameover
+var gameovergit 
 timer.innerText = 0;
 
 //High Score Array
@@ -213,6 +213,7 @@ var answerCheck = function(event) {
 while (highScoreList.firstChild) {
    highScoreList.removeChild(highScoreList.firstChild)
 }
+
 //high score list elements
 for (var i = 0; i < HighScores.length; i++) {
   var highscoreEl = document.createElement("li");
@@ -293,11 +294,9 @@ var clearScores = function () {
     }
 
     localStorage.clear(HighScores);
-
 } 
 
 loadHighScore()
-
 
 //Events
  startBtn.addEventListener("click", startQuiz)
