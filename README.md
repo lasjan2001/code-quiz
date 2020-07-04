@@ -2,7 +2,7 @@ Description: This website features a short quiz that is designed to test rudimen
 
 Screenshot:
 
-![Intro Screen](assets\images\CodingQuizScreenshot.jpg)
+
 
 Link:
   https://lasjan2001.github.io/code-quiz/
