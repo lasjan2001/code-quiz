@@ -27,7 +27,9 @@ header {
 
 #high-score-list:hover {
     cursor: pointer;
-    color: var(--tertiary)
+    color: var(--tertiary);
+    margin: auto;
+    text-align: center;
 }
 
 header h3 {
@@ -111,7 +113,11 @@ input:focus {
 }
 
 #high-score-container {
-  text-align: left;
+  text-align: center;
+  margin: 0;
+  border-width: 5px;
+  padding: 20px;
+  width: 100%;
 }
 
 .btn {
@@ -161,10 +167,11 @@ input:focus {
 }
 
 .answer-buttons {
- width: 50%;
+ width: 75%;
  text-align: center;
  font-size: 3.0vw;
  margin-top: 10px;
+ padding: 20px;
 }
 
 .banner {
@@ -172,12 +179,12 @@ input:focus {
   text-align: center;
   color: rgba(199, 187, 187, 0.8);
   font-style: italic;
-  margin: 0;
+  margin: auto;
 }
 
 .banner h2 {
  border-top: 2px solid rgba(199, 187, 187, 0.8);
- margin: 0 auto;
+ margin: auto;
  text-align: center;
  padding-top: 5px;
 }
