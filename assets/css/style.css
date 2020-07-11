@@ -98,6 +98,7 @@ input:focus {
 
 .start {
     display: flex;
+   
 }
 
 .play {
@@ -105,11 +106,10 @@ input:focus {
 }
 
 #question {
-  color: var(--primary);
+  color: black;
   text-align: center;
   font-size: 3.0rem;
   font-weight: bold;
-  margin: 0em;
 }
 
 #high-score-container {
@@ -153,7 +153,6 @@ input:focus {
   display: grid;
   grid-template-rows: repeat(4, auto);
   grid-gap: 5px;
-  margin: 0;
 }
 
 .introduction button{
@@ -182,12 +181,25 @@ input:focus {
   margin: auto;
 }
 
+button.btn.answerbtn {
+  width: 500px;
+}
+
 .banner h2 {
  border-top: 2px solid rgba(199, 187, 187, 0.8);
  margin: auto;
  text-align: center;
  padding-top: 5px;
 }
+
+.queries {
+  margin: auto;
+}
+
+.endgame {
+  padding-left: 20px;
+}
+
 
 /* List for High Scores */
 
